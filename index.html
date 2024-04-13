@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>rlegeNd - Personal Portfolio </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Biki Kumar Sah</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Tools</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">BIKI.</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Language</a>
+                <a href="#testimonial" class="nav-item nav-link">Future Startup</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Biki Kumar Sah</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Native Android Developer, Web Developer, React-Native Developer, Software Develper, Story Writter</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="https://drive.google.com/file/d/1X0gJUYYTrwIe3KTbAqkCZtFZj2jQOHB6/view?usp=drive_link" class="btn btn-primary py-3 px-4 me-5" target="_blank">Download CV</a>
+                     
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/bikitry.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">10+</h1>
+                           
+                        </div>
+                        <h3 class="lh-base mb-0">number of Android application in native as well as React Native cross platform application</h3>
+                    </div>
+                    <p class="mb-4">
+                        Our project offers an innovative solution to a pressing user problem with a seamless experience and robust security measures for scalability and trust.</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Unique Problem Solving</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Sleek Design and Performance</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Security and Scalability</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/work1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/work2.jpg" alt="">
+                        </div>
+                    </div>
+                   
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">As a software engineer with a passion for frontend
+                        development and backend, I'm committed to advancing digital
+                        experiences. With over a year of practice, I excel in both
+                        frontend and backend tasks, contributing to innovative
+                        projects with efficiency and dedication</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">JAVA</h6>
+                                    <h6 class="font-weight-bold">60%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React-Native</h6>
+                                    <h6 class="font-weight-bold">50%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Node js</h6>
+                                    <h6 class="font-weight-bold">40%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">40%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML & CSS </h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Wordpress</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Full Stack Development Intern</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Dec 2022 - Jan 2023</p>
+                                    <h6 class="mb-0">Chennai , Tamilnadu </h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Cendrol Technology</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Aug 2022 - oct 2020</p>
+                                    <h6 class="mb-0">Bangalore , Karnataka</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Secondary School</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2005-2018 </p>
+                                    <h6 class="mb-0">Mother Teresa Public School (85%)</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Higher  Secondary school</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 - 2020</p>
+                                    <h6 class="mb-0">Triton Internationla Collage (78%)</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Bachelor of Engineering</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2021 - 2025</p>
+                                    <h6 class="mb-0">Kpr Institute of Engineering and Technology  (8.2 CGPA)</h6>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Tools Which I Know</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https:wa.me/+918146034165" target="_blank">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Android Studio</h4>
+                            
+                            <span>In Android Studio, my platform of choice for the past year, I've crafted numerous Android applications, honing my skills and expertise in mobile app development.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Git</h4>
+                            
+                            <span>Using Git for over a year, I've delved into hosting, system management, and installation processes, enriching my understanding of version control and collaboration in software development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Kali Linux</h4>
+                            <span>Exploring Kali Linux, I've immersed myself in learning various command-line operations, delved into basic phishing attacks, and gained insights into testing methodologies, enhancing my proficiency in cybersecurity.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Raspberry Pi</h4>
+                            <span>Utilizing Raspberry Pi, I've mastered basic setup and installation procedures, culminating in the creation of a waste vehicle alarm application, showcasing my ability to innovate with this versatile platform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fas fa-fire fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Firebase</h4>
+                            <span>Firebase, a top cloud solution for Android apps, offers robust authentication, real-time databases, and SMS services, streamlining development with reliability and security</span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa  far fa-keyboard fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">IOT Component </h4>
+                            <span>Using Arduino uno and GSR sensors, I developed a mental stress detector app, showcasing IoT capabilities to monitor and manage stress levels effectively.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+    
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">Native App</li>
+                        <li class="mx-3" data-filter=".second">React-Native App</li>
+                        <li class="mx-3" data-filter=".third">Website</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded">
+                        <img class="img-fluid" src="img/projectss2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Event Management</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projectss2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.linkedin.com/posts/bickey-sah-4bbab7231_eventplanner-javadevelopment-firebasemagic-activity-7143833034792894464-UvAl?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/projectss3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Calculator</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projectss3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.linkedin.com/posts/bickey-sah-4bbab7231_internshipexperience-oasisinfobyte-softwaredevelopment-activity-7093643717286252544-vQzB?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/projjectss4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Smart City App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projjectss4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/Biki463/City-Garbage-Resolver" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/projectss5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Online Kpr Map Viwer</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projectss5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://youtube.com/shorts/UmWWCzsWOjQ?feature=share" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded">
+                        <img class="img-fluid" src="img/projectss1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Health Alarm App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projectss1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/projectss6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Offline 360 map</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projectss6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://youtube.com/shorts/EA9PfQ_j3kI?feature=share" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project9.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Kpr Institute App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project9.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project10.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Blood Donner App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project10.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.linkedin.com/posts/bickey-sah-4bbab7231_mobileappdevelopment-reactnative-firstapp-activity-7091827880384462848-2PW1?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project11.png" alt="">
+                        
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Grocery App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project11.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://youtu.be/72lXncHvYYE" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project12.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">BMI Calculator</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project12.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://biki463.github.io/IBM-Calculator/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project13.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">3s Lottery System</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project13.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://biki463.github.io/3S-Lottery-System/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project14.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Indian Constitution gpt</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project14.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.linkedin.com/posts/bickey-sah-4bbab7231_legaltech-langchain-nextjs-activity-7143842584065474560-ACmD?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded ">
+                        <img class="img-fluid" src="img/project15.png" alt="">
+                        <div class="portfolio-btn">
+                            <div class="portfolio-name">Cloth Detection App</div>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project15.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.linkedin.com/posts/bickey-sah-4bbab7231_reactnative-machinelearning-techinnovation-activity-7143830550422757376-4tnr?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Language</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Contact </a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row custom-bg rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <img src="./img/ENGLISH.webp" alt="Image">
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">ENGLISH</h4>
+                            <span>I am a proficient English speaker, fluent in the language for the past four years. My command over English allows me to communicate effectively and confidently.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row custom-bg rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <img src="./img//hindi.jpg" alt="Image">
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">हिंदी</h4>
+                            <span>I have been conversing in Hindi fluently for several years, enabling me to navigate diverse communication scenarios with ease.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row custom-bg rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <img src="./img/nepali.jpg" alt="Image">
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3"> नेपाली</h4>
+                            <span>I am deeply immersed in the Nepali language and culture, allowing me to communicate naturally and authentically.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row custom-bg rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <img src="./img/maithali.png" alt="Image">
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">मैथिली</h4>
+                            <span>In Maithili, my mother tongue, I communicate effortlessly, embodying the essence of my cultural roots.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+              
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Future Project</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/futureapp.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/GreatestBussiness.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/hungry.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/GreatestBussiness.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Greatest Business App" revolutionizes connectivity among businessmen worldwide, fostering a fully digital global marketplace. Seamlessly connecting entrepreneurs, it facilitates transactions, collaborations, and innovations, driving unprecedented efficiency and growth in the business landscape</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Great Bussiness App </h5>
+                            <span>Bussiness logic & social Profit</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/futureapp.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">"Human Future Predictor" forecasts human behavior with probabilities for informed decisions, offering real-time updates and customizable scenarios while prioritizing ethical guidelines.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Human Future Predictor</h5>
+                            <span>Probability & AIML With Database</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/hungry.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">"No More Hunger" tackles food insecurity by connecting surplus food providers with those in need. This innovative app efficiently redistributes excess food to alleviate hunger, fostering community solidarity and combating food waste on a global scale</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Now no Hunger</h5>
+                            <span>Humanity & Technology </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/futureapp.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/GreatestBussiness.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/hungry.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https:wa.me/+918146034165" >Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My Address:</p>
+                    <h3 class="fw-bold">Coimbatore , Tamilnadu</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+91 8146034165</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">bickeysah452@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/Biki463" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/profile.php?id=100008845818127" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.youtube.com/channel/UCOpQgp1OZsBua3Lvo69LU8Q" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/vickeykrsah/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/bickey-sah-4bbab7231/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                     <form    action="https://formspree.io/f/mayrlaeo"
+                     method="POST" id="form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email"  placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"  name="Message" style="height: 100px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62647.636459594396!2d77.1308294!3d11.0777624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ff7a08d662bb%3A0x81c68f2ddd8c1dfa!2sKPR%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1712927256506!5m2!1sen!2sin" 
+                
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <a class="border-bottom text-secondary" href="#"></a>All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom text-secondary" href="">Biki Kumar Sah</a>
+                        <br>Coimbatore , Tamilnadu <a class="border-bottom" href="" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
