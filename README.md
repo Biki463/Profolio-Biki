@@ -1,13 +1,13 @@
 # Hi, I'm Biki Kumar Sah 👋
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=github)](https://biki463.github.io/Profolio-Biki/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BikiKumarSah-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/biki-kumar-sah/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BikiKumarSah-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bickey-sah-4bbab7231/)
 
 ---
 
 ## 🚀 About Me
 
-I am a passionate Computer Science Engineering student specializing in Software Development.  
+I am a passionate Computer Science Engineering student specializing in MERN Development.  
 I enjoy building modern web applications and learning new technologies to grow as a developer.
 
 ---
@@ -38,8 +38,8 @@ An IoT-based health monitoring system with real-time data visualization and emer
 
 ## 📫 How to Reach Me
 
-- LinkedIn: [linkedin.com/in/biki-kumar-sah](https://www.linkedin.com/in/biki-kumar-sah/)  
-- Email: bikisah463@example.com  
+- LinkedIn: [linkedin.com/in/biki-kumar-sah](https://www.linkedin.com/in/bickey-sah-4bbab7231/)  
+- Email: Bickeysah452@gmail.com  
 - Portfolio: [biki463.github.io/Profolio-Biki](https://biki463.github.io/Profolio-Biki/)
 
 ---
