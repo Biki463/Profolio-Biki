@@ -1,6 +1,6 @@
 # Hi, I'm Biki Kumar Sah 👋
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=github)](https://biki463.github.io/Profolio-Biki/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=github)](https://biki463.github.io/Biki463/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-BikiKumarSah-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bickey-sah-4bbab7231/)
 
 ---
@@ -40,7 +40,7 @@ An IoT-based health monitoring system with real-time data visualization and emer
 
 - LinkedIn: [linkedin.com/in/biki-kumar-sah](https://www.linkedin.com/in/bickey-sah-4bbab7231/)  
 - Email: Bickeysah452@gmail.com  
-- Portfolio: [biki463.github.io/Profolio-Biki](https://biki463.github.io/Profolio-Biki/)
+- Portfolio: [biki463.github.io/Profolio-Biki](https://biki463.github.io/Biki463/)
 
 ---
 
